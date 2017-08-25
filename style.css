@@ -1,0 +1,115 @@
+div, h1, h2, h3, h4, h5, h6, p, ul, li, div {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #000;
+	font-family: verdana, genev, sans-serif;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#top {
+	background-image: url("header-bg.jpg");
+	width: 700px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+#menu {
+	width: 700px;
+	background-color: #666;
+	border-bottom: 1px solid #999;
+}
+
+#nav {
+	width: 400px;
+	height: 36px; 
+	margin: 0 auto;	
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold; 
+	width: 80px;
+	height: 20px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	margin: 7px;
+	padding: 2px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	background: linear-gradient(#666, #333);
+}
+
+#nav ul li a:hover {
+	color: #f63;
+	background: linear-gradient(#333, #666);
+}
+
+#content {
+	background-color: #333;
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#about {
+	width: 430px;
+	margin: 0 auto;
+	border: 3px solid #000;
+	background-color: #222;
+	padding: 10px;
+	background: linear-gradient(#666, #333, #222);
+}
+
+#about img {
+	float: left;
+	border: 1px solid #000;
+	background-color: #333;
+	padding: 20px;
+	margin-right: 5px;
+}
+
+#about h5 {
+	color: #fff;
+	font-weight: bold; 
+	font-size: 1.1em;
+	text-align: center;
+}
+
+#about p {
+	color: #999;
+	text-align: justify; 
+}
+
+#footer {
+	width: 700px;
+	height: 36px;
+	background: #666;
+	border-top: 1px solid #999;
+}
+
+#footer p {
+	text-align: center; 
+	font-size: 0.8em;
+	padding-top: 10px;
+}
