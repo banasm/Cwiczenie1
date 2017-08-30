@@ -1,0 +1,166 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F3F3F3; 
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#wrapper {
+	width: 1200px; 
+	height: auto; 
+	background-color: #FFFFFF; 
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 70px;
+}
+
+#top {
+	position: fixed;
+	width: 1200px;
+	background-color: #999999;
+	left: 0;
+	right: 0; 
+	margin: 0 auto; 
+}
+
+#logo {
+	float: left; 
+	margin: 25px 0px 25px 115px; 
+}
+
+#menu {	
+	float: right;
+	padding-right: 115px;	
+	padding-top: 50px
+}
+
+#menu ul li {
+	list-style: none; 
+	display: inline;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #E2001A; 
+	font-size: 20px; 
+	font-weight: bold;
+	padding-left: 45px; 
+}
+
+#menu ul li a:hover {
+	text-decoration: underline;
+}
+
+#text {
+	width: 500px;
+	float: left; 
+	clear: both;
+	margin-left: 150px;
+	margin-top: 120px;
+	padding-bottom: 25px;
+}
+
+#text h2 {
+	font-size: 50px;
+	color: #E2001A;
+}
+
+#text p {
+	font-size: 35px; 
+	color: #808285; 
+	margin-top: 10px;
+}
+
+#dogs {
+	float: right;
+	width: auto;
+	margin-top: 110px;
+}
+	
+
+#dogs img {
+	width: 533px;
+	height: 315px; 
+}
+
+#content {
+	height: auto;
+	width: auto; 
+	border-top: 1px solid #E2001A;
+	clear: both;
+}
+
+.left {
+	float: left;
+	width: 420px;
+	margin-left: 150px;
+	color: #808285;
+	margin-top: 25px;
+}
+
+.right {
+	float: left;
+	width: 420px;
+	margin-left: 80px;
+	color: #808285;
+	margin-top: 25px;
+}
+
+.left p {
+	word-spacing: 3px;
+	line-height: 25px;
+	font-size: 21px;
+	text-align: justify;
+}
+
+.right p {
+	word-spacing: 3px;
+	line-height: 25px;
+	font-size: 21px;
+	text-align: justify;
+}
+
+.right .link a {
+	color: #E2001A;
+	text-decoration: none;
+	font-size: 25px;	
+}
+
+.link {
+	margin-top: 35px;
+}
+
+.link a:hover {
+	font-weight: bold; 
+	text-decoration: underline;
+}
+
+.images {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+
+.images .black {
+	float: left;
+	margin-left: 50px;
+}
+
+.images .white {
+	float: right;
+	margin-right: 50px;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #E2001A;
+	padding: 5px;
+}
+
+#footer p {
+	color: #808285;
+	text-align: center; 
+}
